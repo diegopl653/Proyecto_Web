@@ -1,0 +1,10 @@
+.container{
+    display:flex;
+    margin: 0 auto;
+}
+aside{
+    margin: 0px 50px;
+}
+main{
+    margin: 20px 20px;
+}
