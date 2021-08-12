@@ -1,10 +1,5 @@
-.container{
-    display:flex;
-    margin: 0 auto;
-}
-aside{
-    margin: 0px 50px;
-}
-main{
-    margin: 20px 20px;
+html{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
