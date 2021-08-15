@@ -329,6 +329,7 @@ main{
     flex-direction: column;
     justify-content: center;
     left: 170px;
+    margin-bottom: 200px;
 }
 .section5 div{
     display: flex;
@@ -358,4 +359,139 @@ main{
 }
 .parrafo1.oficio {
     color: #828282;
+}
+.links {
+    display: none;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 166px;
+    margin-top: 46px;
+    line-height: 200%;
+  }
+
+.logo {
+    font-family: 'Antonio', sans-serif;
+    margin-bottom: 0px;
+    margin-top:46px;
+  }
+  
+.contacto {
+    height: 15vh;
+    margin-top: 49px;
+}
+  
+.contacto p {
+    font-size: 0.7em;
+    color: #3f3d3d;
+}
+  
+.contacto div {
+    position: relative;
+}
+  
+.contacto button{
+    position: relative;
+    border-style: none;
+    background-color: #2D9CDB;
+    color: #F2F2F2;
+    z-index: 2;
+    right: 102px;
+    width: 94px;
+    height: 49px;
+    border-radius: 12px;
+}
+  
+.contacto input {
+    width: 350px;
+    height: 57px;
+    padding-left: 21px;
+    position: relative;
+    border-radius: 12px;
+    background-color: #F2F2F2;
+    border-style: none;
+    z-index: 1;
+}
+
+.contacto input:focus-visible {
+    outline: none;
+}
+
+footer {
+    width: 100vw;
+    background: #100E1D;
+    padding-bottom: 5rem;
+}
+  
+footer .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+}
+  
+footer .links a {
+    color: #fff;
+    padding-bottom: 0.4rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+  
+footer .logo {
+    color: #fff;
+    margin-left: unset;
+    padding: 0.5rem 2rem;
+}
+  
+footer .social {
+    padding: 1.5rem;
+}
+  
+footer .social img {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+  
+footer .contacto {
+    margin-top: 81px;
+    -webkit-transform: translateX(-1.5%);
+            transform: translateX(-1.5%);
+}
+  
+footer .contacto p {
+    color: #fff;
+}
+
+footer .contacto div input {
+    color: black;
+}
+
+@media screen and (min-width: 500px) {
+    .contacto input {
+      width: 20rem;
+    }    
+    footer {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
+    }
+    footer .socials {
+      padding-top: 2rem;
+    }
+    footer .contacto input {
+      width: 45%;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    .contacto div::after {
+      left: 26%;
+    }
+    footer .contacto div::after {
+      left: 51%;
+    }
 }
