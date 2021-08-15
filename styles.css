@@ -104,11 +104,14 @@ main{
     margin-top: 42px;
 }
 .box2{
-    margin: 0 5px;
+    width: 341px;
+    height: 422px;
+    margin: 0 10px;
     padding-left: 35px;
     padding-right: 33px;
     padding-top: 46px;
     padding-bottom: 84px;
+    box-sizing: border-box;
 }
 .box2 img{
     width: 27px;
@@ -142,7 +145,7 @@ main{
 }
 .box2 button a{
     text-decoration: none;
-    color: #828282; 
+    color: #828282;
 }
 .box2 .bot1 a{
     background-color: #2D9CDB;
@@ -207,6 +210,7 @@ main{
     position: absolute;
     top: 1540px;
     left: 1116px;
+    margin-bottom: 219px;
 }
 .container2{
     display: flex;
@@ -214,7 +218,7 @@ main{
     position: relative;
 }
 .box3.v1{
--top: 12px;
+    top: 12px;
     position: absolute;
     box-sizing: border-box;
     left: 730px;
@@ -238,9 +242,56 @@ main{
     left: 165px;
 }
 .section4{
+    position: relative;
+    left: 170px;
     display: flex;
-    margin-top: 219px;
-
+    height: 584px;
+    width: 1103.43px;
+    align-items: center;
+    margin-top: 220px;
+    margin-bottom: 196px;
+}
+.cuadro{
+    position:static;
+    height: 258px;
+    width: 280px;
+}
+.rojo{
+    color: #EB5757;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.pic{
+    border-radius: 24px;
+}
+.pic.b {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    right: 316px;
+    bottom: 132px;
+}
+.pic.a{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    bottom: 324px;
+    left: 260px;
+}
+.pic.c{
+    position: relative;
+    width: 292px;
+    height: 300px;
+}
+.imagenes{
+    display: flex;
+    position: relative;
+    height: 584px;
+    width: 635.5px;
+    left: 188px;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 /* .section5{
 } */
