@@ -3,3 +3,33 @@ html{
     font-family: 'Heebo', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
+header{
+    font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 36px;
+     color:  gray1;
+}
+.header a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+.container_class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .cabecera ul {
+ margin:0;
+ padding:0;
+ list-style: none;
+ }
+ .cabecera ul li {
+     display: inline-block;
+
+ }
+ .cabecera ul li a {
+     display: block;
+     padding: 0.5rem 1rem;
+ }
