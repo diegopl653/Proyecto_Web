@@ -67,6 +67,7 @@ main{
     border-radius: 18px;
 }
 .section1{
+    margin-top:96px;
     display: flex;
     flex-direction: column;
 }
