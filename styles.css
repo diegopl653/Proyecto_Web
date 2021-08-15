@@ -13,7 +13,6 @@ header{
     text-decoration: none;
 }
 .container_class{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
