@@ -8,14 +8,20 @@ html{
     display: none;
     color: #ffffff;
     text-decoration: none;
+    margin-left: 166px;
+    margin-top: 46px;
+    line-height: 200%;
   }
 
 .logo {
     font-family: 'Antonio', sans-serif;
+    margin-bottom: 0px;
+    margin-top:46px;
   }
   
 .contacto {
     height: 15vh;
+    margin-top: 49px;
 }
   
 .contacto p {
@@ -94,7 +100,7 @@ footer .social img {
 }
   
 footer .contacto {
-    margin-top: 2rem;
+    margin-top: 81px;
     -webkit-transform: translateX(-1.5%);
             transform: translateX(-1.5%);
 }
